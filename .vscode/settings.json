@@ -1,0 +1,24 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist/**": true,
+    "/**/pnpm-lock.yaml": true
+  },
+  "files.associations": {
+    "*.svx": "markdown"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "git.enableCommitSigning": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "json.schemaDownload.enable": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "explorer.sortOrder": "filesFirst",
+  "workbench.tree.indent": 20,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "typescript.preferences.importModuleSpecifier": "relative"
+}
